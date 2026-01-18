@@ -15,10 +15,22 @@ Version 1: The Decomposed Semantic Baseline
 
 # The foundational approach treats images as a collection of five distinct semantic paths (Global, Clothing, Color, Scene, and Style). It uses a lightweight L-6 Cross-Encoder to verify results.
 
+Architecture Diagram of Version-1
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/208dbf9b-36eb-4936-9cb2-20ea85ea6006" />
+
+
 Version 2: The Vision-First Hybrid Engine
 
 # Introduces a Visual Oracle logic. It doesn't just trust metadata; it uses CLIP to visually verify colors and introduces Search by Image functionality.
 
+Architecture Diagram of Version-2
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/364379d9-9dd3-49d5-b4d4-b2ecb7d4810f" />
+
+
 Version 3: The Dual-VLM Semantic Ensemble
 
 # The final version achieves Semantic Completeness by ensembling Florence-2 (technical details) and Salesforce BLIP (natural language). It uses a 7-dimensional vector index.
+
+Architecture Diagram of Version-3
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/45fb297a-ad3d-47a6-bd84-35bda1312d21" />
+
